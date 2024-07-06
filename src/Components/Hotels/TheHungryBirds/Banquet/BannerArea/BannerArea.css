@@ -1,0 +1,60 @@
+.banquetImage img {
+  width: 100%;
+  height: auto;
+}
+.ratingBox {
+  background: green;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100px;
+  padding: 13px 0;
+  margin: 5px auto;
+  text-align: center;
+}
+.infoHB {
+  position: absolute;
+  width: 95%;
+  bottom: -25%;
+  background: white;
+  left: 2%;
+}
+.border_shadow {
+  box-shadow: 1px 1px 6px -2px;
+  padding: 20px;
+  border-radius: 3px;
+}
+.indoor\/outdoor p {
+  font-weight: 700;
+  font-family: sans-serif;
+  margin: 0;
+}
+.indoor\/outdoor span {
+  color: #8b7e7e;
+  font-size: 15px;
+}
+.areaAvailable {
+  margin: 5em 0;
+}
+@media (max-width: 768px) and (min-width: 425px) {
+  .infoHB p {
+    font-size: 12px;
+  }
+  .infoHB h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 425px) {
+  .infoHB {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  .areaAvailable {
+    margin: 0.5em 0;
+  }
+  .contact_us {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,81 @@
+.hero-header {
+  background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
+    url(./ResturantImage/hero.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-dark {
+  background-color: #0f172b !important;
+}
+@media (min-width: 1200px) {
+  .display-3 {
+    font-size: 4rem;
+  }
+}
+.display-3 {
+  font-size: calc(1.525rem + 3.3vw);
+  font-weight: 800;
+  line-height: 1.2;
+}
+.slideInLeft {
+  animation-name: slideInLeft;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.slideInLeft {
+  animation-name: slideInLeft;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.btn1:hover {
+  background: orange;
+  transform: translateY(-10px);
+  color: white !important;
+}
+.btn1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: transparent;
+  color: white;
+  padding: 1em;
+  border: 1px solid orange;
+  transition: transform 0.6s ease;
+  border-radius: 5px;
+}
+@keyframes imgRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hero-header .img-fluid {
+  animation: imgRotate 50s linear infinite;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+/* services section css  */
+.service-item:hover {
+  background: var(--primary);
+}
+.service-item {
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+  transition: 0.5s;
+}
+.service-item:hover * {
+  color: var(--light) !important;
+}
+.service-item * {
+  transition: 0.5s;
+}

@@ -1,0 +1,37 @@
+.about_section h3,
+.about_section h2 {
+  color: #333;
+}
+
+.about_section {
+  margin-bottom: 20px;
+}
+
+.about_section hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.details ul {
+  list-style-type: none;
+  padding: 0;
+}
+.text_heading {
+  margin: 1em 0;
+  color: coral;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: math;
+}

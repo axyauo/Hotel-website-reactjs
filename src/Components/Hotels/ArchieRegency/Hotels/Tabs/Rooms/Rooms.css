@@ -1,0 +1,162 @@
+.roomsintro {
+  border: 1px solid #b4adad;
+  padding: 10px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+h4.roomsHeading {
+  background: #dbdbdb;
+  color: darkred;
+  padding: 8px 15px;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 0;
+  border: 1px solid;
+}
+.roomtype img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.6s ease;
+}
+.roomsintro:hover .roomtype img {
+  transform: scale(1.03);
+}
+
+.roomsintro h3 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 900;
+  word-break: break-word;
+  padding-top: 0.5em;
+}
+.roomsintro:hover h3,
+.roomsintro:hover h2 {
+  color: darkred;
+}
+.smallIntro span {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+.roomsintro ul li {
+  margin: 0 20px;
+  list-style: square;
+  color: #878787;
+}
+.roomsintro ul {
+  display: flex;
+  margin: 10px 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.roomsopttion button {
+  align-items: center;
+  border: 1px solid #852d94;
+  border-radius: 8px;
+  color: #852d94;
+  display: inline-flex;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px 8px;
+  text-transform: uppercase;
+}
+.roomsopttion h2 {
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 30px;
+}
+.roomsopttion ul {
+  padding: 0;
+}
+
+.roomsopttion ul li {
+  font-size: 14px;
+  line-height: 20px;
+  list-style: none;
+}
+.roomsopttion ul li:before {
+  content: "✔";
+  color: darkred;
+  font-size: 10px;
+  padding-right: 6px;
+}
+.grayText {
+  color: #9b9b9b;
+}
+p.grayText span {
+  font-size: calc(var(--font-scale, 1) * 24px);
+  line-height: 22px;
+  font-weight: 900;
+  color: black;
+}
+p.gst {
+  font-size: 14px;
+  font-weight: 600;
+}
+.borderr {
+  border-left: 1px solid;
+}
+.bookNow button:hover {
+  transform: scale(1.1);
+}
+.bookNow button {
+  background: #d35a4a;
+  color: white;
+  padding: 10px 20px;
+  margin: 2em 1em;
+  border-radius: 1.2em;
+  font-weight: 700;
+  transition: transform 0.6s ease;
+  font-size: 14px;
+}
+
+.nav-link:after {
+  display: block;
+  content: "";
+  top: 8px;
+  border-bottom: solid 3px orange;
+  transform: scaleX(0);
+  transition: transform 0ms ease-out;
+  position: relative;
+}
+.nav-link.active:after {
+  transform: scaleX(1);
+  transform-origin: 0% 50%;
+  transition: transform 5000ms ease-in;
+}
+
+.nav-link:focus,
+.nav-link:hover,
+.nav-link.active a {
+  border-color: transparent !important;
+  color: orange !important;
+}
+div#nav-tab button {
+  width: 200px;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
+div#nav-tab {
+  border-bottom: 1px solid #969292;
+  box-shadow: 0px 10px 15px -13px;
+}
+button.slick-arrow.slick-prev {
+  left: 10px;
+  z-index: 9;
+}
+@media (max-width: 1200px) and (min-width: 770px) {
+  .bookNow button {
+    padding: 10px 15px !important;
+    margin: 2em 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .roomsintro {
+    height: auto;
+  }
+}

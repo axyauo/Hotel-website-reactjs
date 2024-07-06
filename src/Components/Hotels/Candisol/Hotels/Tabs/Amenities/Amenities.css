@@ -1,0 +1,93 @@
+.appendTop52 {
+  margin-top: 52px;
+}
+.fclty__title {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 26px;
+  position: relative;
+}
+.fclty__header {
+  align-items: center;
+  border-bottom: 1px solid #bababa80;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 22px;
+  padding-bottom: 22px;
+}
+.fclty__header p {
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+.fclty__header--iconWrapper {
+  align-items: center;
+  border: 1px solid #aad9ff;
+  border-radius: 50%;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  width: 48px;
+}
+.appendRight12 {
+  margin-right: 12px;
+}
+.sprite.facilityTickIcon {
+  background-position: -303px -288px;
+  height: 10px;
+  width: 11px;
+}
+
+.htlSpriteIcon,
+.sprite {
+  display: inline-block;
+  flex-shrink: 0;
+  font-size: 0;
+}
+.sprite {
+  background: url(//imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/sprite_prod/hotelSprite_hashdcd703c….png)
+    no-repeat;
+  background-size: 450px 1100px;
+}
+.fcltyLst {
+  display: grid;
+  gap: 10;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.appendBottom20 {
+  margin-bottom: 20px;
+}
+.appendBottom10 {
+  margin-bottom: 10px;
+}
+.font16 {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.latoBlack {
+  font-weight: 900;
+}
+.font14 {
+  font-size: 14px;
+  line-height: 14px;
+}
+.blueText {
+  color: #0084ff;
+}
+.font14 {
+  font-size: 16px;
+  line-height: 20px;
+  color: #a8a8a8;
+  font-weight: 400;
+}
+.latoBlack {
+  font-weight: 900;
+}
+.fcltyLst_item ul {
+  padding: 0;
+}

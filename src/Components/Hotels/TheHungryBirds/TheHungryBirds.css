@@ -1,0 +1,11 @@
+.nav_btn button {
+  width: 100% !important;
+  height: 50px;
+}
+.nav_btn button:hover,
+.nav_btn .active {
+  width: 100% !important;
+  height: 50px;
+  color: white !important;
+  background: orange;
+}

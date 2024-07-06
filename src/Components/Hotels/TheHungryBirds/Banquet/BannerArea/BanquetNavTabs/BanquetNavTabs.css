@@ -1,0 +1,16 @@
+.portfolio_images img {
+  width: 100%;
+  height: auto;
+}
+.portfolio_images {
+  position: relative;
+}
+span.video_icon i {
+  font-size: 40px;
+  color: white;
+}
+span.video_icon {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}

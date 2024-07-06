@@ -1,0 +1,33 @@
+.foodName_price {
+  display: flex;
+  justify-content: space-between;
+}
+.foodName_price h5 {
+  font-family: cursive;
+  font-weight: 600;
+  color: #0f172b;
+  margin: 0;
+}
+.foodName_price h6 {
+  color: #fea116;
+  font-weight: 800;
+  font-family: sans-serif;
+  margin: 0;
+}
+.foodName_price p {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: monospace;
+  margin: 0;
+}
+.foodName_price button {
+  font-size: 12px;
+  padding: 5px 3em;
+}
+.foodImage img {
+  width: 100%;
+  height: auto;
+}
+.foodName hr {
+  margin: 8px 0;
+}

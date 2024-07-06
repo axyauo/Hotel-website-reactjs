@@ -1,0 +1,71 @@
+.section-title::before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  top: 50%;
+  left: -55px;
+  margin-top: -1px;
+  background: orange;
+}
+.section-title::after {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  top: 50%;
+  right: -55px;
+  margin-top: -1px;
+  background: orange;
+}
+.headings {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+.nav-tab-01 button {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: cursive;
+  padding: 1em;
+  width: 100%;
+}
+.nav-tab-01 button:hover,
+.nav-tab-01 .active {
+  color: orange;
+}
+.nav-tab-01 {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foodName span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #8e8b8b;
+}
+.foodName p {
+  font-size: 18px;
+}
+.buttonIcn {
+  display: flex;
+  justify-content: center;
+}
+.buttonIcn i {
+  font-size: 2em;
+  color: orange;
+}
+@media (max-width: 625px) {
+  .nav-tab-01 {
+    width: 100%;
+  }
+  .nav-tab-01 button {
+    padding: 0;
+    background: #ffc3612b;
+    margin-bottom: 3px;
+  }
+}

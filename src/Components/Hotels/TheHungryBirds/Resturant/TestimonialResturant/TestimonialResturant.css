@@ -1,0 +1,31 @@
+.testiImage img {
+  width: 100%;
+  border-radius: 100%;
+  height: auto;
+}
+.testimonialItem {
+  box-shadow: 1px 1px 15px -8px;
+  border-radius: 10px;
+  padding: 1em;
+}
+.testimonialItem:hover {
+  background: orange;
+}
+.testimonialItem:hover h4,
+.testimonialItem:hover p,
+.testimonialItem:hover i {
+  color: white;
+}
+.testimonialItem i {
+  font-size: 40px;
+  color: orange;
+}
+.TetiName h4 {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.testimonialItem p {
+  font-size: 1em;
+  font-family: "Heebo", sans-serif;
+  color: #8e8181;
+}

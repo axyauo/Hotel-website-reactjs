@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-body {
+  background-image: url("https://raw.githubusercontent.com/JorgeSilencio/CSS_inicioSesion/main/back.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+}
+
+.form-body a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.formularioo {
+  width: 100%;
+  background: #1291a57e;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+}
+
+.formulario h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.formularioo .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+}
+
+.input-box input,
+.input-box select {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #ffffff;
+  /* padding: 20px 45px 20px 20px; */
+  padding: 0 20px;
+}
+
+.input-box input::placeholder {
+  text-align: center;
+  color: #ffffff;
+}
+
+.input-box .bx {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.formularioo .recordar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin: -15px 0 15px;
+}
+
+.recordar label input {
+  accent-color: #ffffff;
+  margin-right: 3px;
+}
+
+.formularioo .btn {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  font-weight: 300;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+option {
+  background: #9d4b4b;
+}
+@media (max-width: 625px) {
+  .formularioo {
+    margin: 3em !important;
+  }
+  .formularioo h1 {
+    font-size: 25px;
+  }
+  .input-box input {
+    font-size: 14px;
+  }
+  .formularioo .input-box {
+    margin: 10px 0;
+  }
+  .input-box.check-date {
+    margin-bottom: 2em;
+  }
+}
